@@ -9,21 +9,26 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Jurassic Park</title>
     <style>
+
+    body {
+            background-color: #f0ead6;
+        }
+
         .centrar {
             display: flex;
             justify-content: center;
             text-align: center;
         }
-        /* Consolidate column and row styles for simplicity and reusability */
+        
         .column, .row:after {
             clear: both;
         }
         .column {
             float: left;
             width: 30%;
-            margin-right: 5%; /* Adjust the margin to create space between columns */
+            margin-right: 5%;
         }
-        /* Ensure that after the last column, there's a clear fix */
+        
         .row::after {
             content: "";
             display: table;
@@ -93,7 +98,7 @@
                     <li>Ankylosaurus</li>
                     <li>Pteranodon</li>
                     <li>Compsognathus</li>
-                <!-- Lista de dinosaurios se mantiene igual -->
+                
             </div>
         </div>
 
